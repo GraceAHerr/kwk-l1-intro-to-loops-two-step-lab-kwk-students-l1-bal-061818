@@ -30,7 +30,8 @@ def a_few_more_steps
     puts "turn"
     sleep(1)
     break
-end
+  end
+end 
 
 
 def how_many_steps?
