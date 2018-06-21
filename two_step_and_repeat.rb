@@ -34,29 +34,32 @@ end
 
 
 def how_many_steps?
-  steps = 1
-  puts 'steps'
+  steps = 0
+  loop do
+    steps = steps + 1
+  puts steps
   if steps %2 ==0
     puts "Left"
   else
     puts "Right"
   sleep(0.5)
-  steps +=1
+    end
   end
 end
 
 def break_dance
-  steps = 1
-  puts 'steps'
+  steps = 0
+  loop do
+    steps = steps + 1
+  puts steps
   if steps %2 ==0
     puts "Left"
   else
     puts "Right"
-  end
-  sleep(0.5)
   steps +=1
   if steps == 6
     break
+    end
   end
 end
   # Write a solution that uses the same code as how_many_steps?, but breaks the
