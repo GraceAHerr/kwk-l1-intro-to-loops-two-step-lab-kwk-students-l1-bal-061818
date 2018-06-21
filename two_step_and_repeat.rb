@@ -29,7 +29,7 @@ def a_few_more_steps
     sleep(0.5)
     puts "turn"
     sleep(1)
-    break 
+    break
 end
 
 
@@ -45,7 +45,6 @@ def how_many_steps?
   end
 end
 
-#def break_dance
+def break_dance
   # Write a solution that uses the same code as how_many_steps?, but breaks the
   # loop if steps is equal to 6
-#end
